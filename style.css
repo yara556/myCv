@@ -184,14 +184,18 @@ h6 {
     display: flex;
     margin: 20px 0;
 }
-.duration-company-name {
+.info {
     min-width: 150px;
     margin-bottom: 10px;
+    margin-top: 5px;
 }
-.duration-company-name h5 {
+.info .duration {
+    font-size: 12px;
+}
+.info h5 {
     font-weight: 600;
 }
-.duration-company-name h5:last-child {
+.info h5:last-child {
     color: #333;
 }
 .box .text h4 {
@@ -211,4 +215,10 @@ h6 {
     color: #333;
     font-weight: 500;
     margin-bottom: 5px;
+}
+
+.content .right .text ul li {
+    cursor: auto;
+    margin: 10px 0;
+    line-height: 1.5rem;
 }
